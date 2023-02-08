@@ -1,0 +1,39 @@
+.wrapper {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  user-select: none;
+}
+
+.round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 2px solid darksalmon;
+  border-radius: 50%;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.roundSmall {
+  width: 30px;
+  height: 30px;
+}
+
+.quantity {
+  color: darksalmon;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .round {
+    &:hover {
+      opacity: 1;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.root {
+  background: #f3f2f1;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 50px 50px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 576px) {
+  .wrapper {
+    padding: 30px 25px;
+  }
+}

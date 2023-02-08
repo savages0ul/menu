@@ -1,0 +1,27 @@
+.root {
+  margin-top: 50px;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.title {
+  font-weight: 700;
+  font-size: 32px;
+  color: #000000;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 30px;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 576px) {
+  .title {
+    text-align: center;
+  }
+}
